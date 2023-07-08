@@ -1,0 +1,1 @@
+The advanced html tutorial explains the intricacies of html and css
