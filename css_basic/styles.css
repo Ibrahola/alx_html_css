@@ -1,0 +1,27 @@
+ body {
+    display: flex;
+    flex-direction: column;
+ }
+ .main {
+    display: flex;
+    flex-direction: row;
+ }
+ .article {
+    background: red;
+    height: 200px;
+    width: 400px;
+    flex: 2;
+    overflow-y: auto;
+    border: 2px solid black;
+ }
+ .aside {
+    background: yellow;
+    height: 200px;
+    width: 400px;
+    flex: 1;
+    overflow-y: auto;
+    border: 2px solid black;
+ }
+ h1 {
+    text-align: center;
+ }
