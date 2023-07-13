@@ -179,13 +179,6 @@
   
   /* Grid
       ============================= */
-  
-
-
-    .row {
-        display: flex;
-    }
-
     
   ul.row {
     margin: 0;
@@ -211,6 +204,9 @@
   
   .col-1-2 {
     width: 50%;
+  }
+  .row {
+    display: flex;
   }
   
   /* Navbar
