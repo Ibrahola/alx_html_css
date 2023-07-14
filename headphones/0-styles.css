@@ -59,3 +59,48 @@ header .section-two p {
     margin: 100px auto;
     text-align: center;
 }
+
+
+@media screen and (max-width: 500px){
+    body {
+        background: red;
+    }
+    .section-one {
+    display: block;
+}
+header .two {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+header .section-one .one img {
+    font-size: 2px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+header .section-two h1{
+    margin-top: 50px;
+    font-size: 20px;
+}
+header .section-two h4 {
+    font-size: 15px;
+}
+header .section-two button {
+    padding: 5px;
+    border-radius: 10px;
+    background: orangered;
+    margin-top: 80px;
+    color: #fff;
+    text-transform: uppercase;
+}
+header .section-two p {
+    width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+    
+}
