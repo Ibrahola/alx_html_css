@@ -83,7 +83,7 @@ article .four {
 /* result section */
 .result-section {
     background-image: url("/headphones/images/headphones_hero_2.jpg");
-    height: 80vh;
+    height: 70vh;
     color: #fff;
 }
 
@@ -91,14 +91,18 @@ article .four {
     margin: 0 auto;
     text-align: center;
     width: 70%;
+    padding-top: 50px;
 }
-.result-section div img {
-    width: 80px;
-    display:inline-block;
+.result-section .six {
+    width: 10px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
     margin: 0 auto;
-    text-align: center;
+}
+.result-section .six img {
+    width: 80px;
+    margin-top: 80px;
+    padding: 10px;
 }
 
 /* @media screen and (max-width: 500px){
