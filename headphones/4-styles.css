@@ -142,11 +142,26 @@ article .four {
 }
 
 footer {
-    /* background-color: black; */
+    background-color: black;
     height: 40vh;
+    display: flex;
+    justify-content: space-around;
 }
 
-/* @media screen and (max-width: 500px){
+
+
+footer .social i {
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 20px;
+}
+footer div img {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 500px){
     body {
         background: red;
     }
@@ -186,6 +201,12 @@ header .section-two p {
     text-align: center;
     font-size: 15px;
 } 
+.what {
+    height: 100vh;
+}
+.result-section {
+    height: 300px;
+}
 article .four {
     margin: 0 auto;
     width: 60%;
@@ -204,7 +225,7 @@ article .four {
     display: block;
 }
 .result-section .six img {
-    width: 80px;
+    width: 50px;
     margin-top: 5px;
     padding: 10px;
 }
@@ -213,4 +234,31 @@ article .four {
     height: 100vh;
     color: #fff;
 }
-} */
+.contact-us .form button {
+    padding: 10px;
+    border-radius: 20px;
+    background: orangered;
+    color: #fff;
+    text-transform: uppercase;
+}
+.contact-us {
+    height: 100vh;
+}
+footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+footer .social i {
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    border-radius: 50%;
+    padding: 20px;
+}
+footer div img {
+    margin-top: 30px;
+}
+
+
+}
